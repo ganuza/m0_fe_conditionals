@@ -53,21 +53,27 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 
 console.log(4 < 9);
 // YOU DO: Explain.
+// this should log the evaluation of whether 4 < 9 ; true
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// this will assign the number 3 to the variable books
+// then it should log the evaluation of if 4 is less than the variable books (3); false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// this assigns the values 6 to variable friends, and 2 to variable siblings
+// then it should log the evaluation of is friends (6) is greater than siblings (2); true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
-
+// this assigns the values of 9 to variable attendees, and 8 to variable meals
+// then it should log the evaluation of is attendiess (9) Not strictly equal to meals (8); true
 
 // #-------------------
 // PART 3: Logical Operators
@@ -89,15 +95,17 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && age);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// It evaluated to 1.  I think it did this because it treated the value of 1 that is assigned to age as true?
+// Then it logged the whole evaluation as 1, which is the same as true
